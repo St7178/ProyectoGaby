@@ -1,0 +1,68 @@
+.postularse {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.postularse-header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.postularse-header h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.postularse-header p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.postularse-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.postularse-form label {
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.postularse-form input,
+.postularse-form textarea {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+.postularse-form input[type='file'] {
+    padding: 0;
+}
+
+.submit-button {
+    padding: 10px 16px;
+    font-size: 14px;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+    background: #0056b3;
+}

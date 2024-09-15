@@ -1,0 +1,39 @@
+.notification-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffeb3b;
+    color: #333;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    z-index: 1000;
+}
+
+.notification-banner-content {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.notification-banner p {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    flex: 1;
+}
+
+.notification-banner button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+}
+
+.notification-banner button:hover {
+    text-decoration: underline;
+}

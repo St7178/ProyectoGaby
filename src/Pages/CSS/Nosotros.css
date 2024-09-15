@@ -1,0 +1,103 @@
+.nosotros {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nosotros-intro {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .nosotros-intro h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .nosotros-intro p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .nosotros-equipo {
+    margin-bottom: 30px;
+  }
+  
+  .nosotros-equipo h2 {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .nosotros-equipo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .nosotros-equipo-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+  }
+  
+  .nosotros-equipo-item img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .nosotros-equipo-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0 5px;
+  }
+  
+  .nosotros-equipo-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+  }
+  
+  .nosotros-cta {
+    text-align: center;
+  }
+  
+  .nosotros-cta h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .nosotros-cta p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #007bff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #0056b3;
+  }
+  

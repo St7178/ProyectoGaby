@@ -1,0 +1,52 @@
+.mejores {
+    background: linear-gradient(180deg, #0f63ff50 0%, #e1ffea22 60%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+    height: auto; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.mejores h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0; 
+}
+
+.mejores hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+    margin: 10px 0; 
+}
+
+.mejores-item {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    width: 100%; 
+    box-sizing: border-box; 
+    overflow-x: hidden; 
+}
+
+.item {
+    flex: 1 1 200px; 
+    max-width: 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px; 
+}
+
+.item img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}

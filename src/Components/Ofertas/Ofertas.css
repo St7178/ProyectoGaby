@@ -1,0 +1,53 @@
+.ofertas {
+    background: linear-gradient(180deg, #ff0e0e50 0%, #e1ffea22 60%);
+    width: 80%; /* Aumenta el ancho para usar más espacio horizontalmente */
+    max-width: 1200px; /* Limita el ancho máximo para evitar que se extienda demasiado */
+    height: auto; /* Ajusta la altura automáticamente según el contenido */
+    display: flex;
+    margin: 50px auto; /* Reduce el margen superior e inferior */
+    padding: 0 20px; /* Ajusta el padding horizontal */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+}
+
+.ofertas-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px; /* Ajusta el padding derecho para separar del contenedor derecho */
+}
+
+.ofertas-left h1 {
+    color: #171717;
+    font-size: 40px; /* Reduce el tamaño del texto */
+    font-weight: 600;
+    margin-bottom: 20px; /* Ajusta el margen inferior */
+}
+
+.ofertas-left p {
+    color: #171717;
+    font-size: 18px; /* Reduce el tamaño del texto */
+    font-weight: 400;
+    margin-bottom: 20px; /* Ajusta el margen inferior */
+}
+
+.ofertas-left button {
+    width: 200px; /* Reduce el ancho del botón */
+    height: 50px; /* Reduce la altura del botón */
+    border-radius: 25px; /* Ajusta el borde redondeado */
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 18px; /* Reduce el tamaño de la fuente */
+    font-weight: 500;
+    margin-top: 20px; /* Ajusta el margen superior */
+    cursor: pointer;
+}
+
+.ofertas-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido en lugar de alinearlo a la derecha */
+    padding-top: 0; /* Elimina el padding superior */
+}
