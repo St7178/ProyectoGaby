@@ -39,6 +39,7 @@ width: 150px;
 }
 
 .home-button{
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;

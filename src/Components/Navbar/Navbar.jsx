@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../Assets/logo.png';
 import carrito from '../Assets/cart_icon.png';
+import { ShopContext } from '../../Context/ShopContext';
 
 export const Navbar = () => {
     const [menu, setMenu] = useState("tienda");
+    const {getTotalCartItems}= useContext(ShopContext);
 
     const handleLogoClick = () => {
         setMenu("tienda");
@@ -42,18 +44,21 @@ export const Navbar = () => {
                 </li>
             </ul>
             <div className="nav-login-cart">
-                <Link to='/login'>
-                    <button 
-                        className={menu === "login" ? 'active' : ''}
-                        onClick={handleLoginClick}
-                    >
-                        Login
-                    </button>
-                </Link>
+                {localStorage.getItem('auth-token')
+                ?<button onClick={()=>{localStorage.removeItem('auth-token');window.location.replace('/')}}>Cerrar Sesion</button>
+            :<Link to='/login'>
+            <button 
+                className={menu === "login" ? 'active' : ''}
+                onClick={handleLoginClick}
+            >
+                Login
+            </button>
+        </Link>}
+                
                 <Link to='/carrito'>
                     <img src={carrito} alt="Cart" />
                 </Link>
-                <div className="nav-cart-contador">0</div>
+                <div className="nav-cart-contador">{getTotalCartItems()}</div>
             </div>
         </div>
     );

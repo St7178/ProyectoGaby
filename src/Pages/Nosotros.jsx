@@ -41,9 +41,9 @@ export const Nosotros = () => {
         <h2>Únete a Nosotros</h2>
         <p>
           Si compartes nuestra pasión por las mascotas y quieres formar parte de nuestro equipo, ¡nos encantaría saber de ti! 
-          Visita nuestra página de oportunidades laborales para más información.
+          Visitanos en nuestro punto fisico y cuentanos de ti.
         </p>
-        <a href='/oportunidades' className='cta-button'>Ver Oportunidades</a>
+        <p>¡Te esperamos!</p>
       </section>
     </div>
   );

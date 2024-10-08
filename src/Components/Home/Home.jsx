@@ -17,8 +17,8 @@ export const Home = () => {
                 <p>PARA MASCOTAS</p>
             </div>
             <div className="home-button">
-            <a href="/productos"><div>Ultimos productos</div></a>
-            <a href="/productos"><img src={boton_home} alt="" /> </a>
+            <a href="/mejores"><div>Ultimos productos</div></a>
+            <a href="/mejores"><img src={boton_home} alt="" /> </a>
             </div>
         </div>
 

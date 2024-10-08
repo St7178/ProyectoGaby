@@ -1,4 +1,3 @@
-// Oportunidades.jsx
 import React from 'react';
 import './CSS/Oportunidades.css';
 

@@ -1,10 +1,9 @@
-// src/Pages/Postularse.jsx
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './CSS/Postularse.css';
 
 export const Postularse = () => {
-  const { opportunityId } = useParams(); // Obtener el parámetro de la URL
+  const { opportunityId } = useParams(); 
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -28,7 +27,7 @@ export const Postularse = () => {
     data.append('email', formData.email);
     data.append('resume', formData.resume);
     data.append('coverLetter', formData.coverLetter);
-    data.append('opportunityId', opportunityId); // Incluir el ID de oportunidad en los datos enviados
+    data.append('opportunityId', opportunityId);
 
     fetch('/api/postularse', {
       method: 'POST',
